@@ -16,3 +16,17 @@ console.log(counter);
         }
         console.log("hola, estoy despues del continue");
     } while (true);
+
+    /*BUCLE INFINITO */
+   /* do {
+        console.log(counter);
+     (counter <= 100);
+        if {((counter % 2) == 0);
+            counter++;
+            console.log ("El numero es par");
+    } else {
+        console.log ("El numero es impar");
+    }
+    break;
+} while (true); */ 
+

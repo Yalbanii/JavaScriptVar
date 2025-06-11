@@ -26,22 +26,12 @@ while(true){
     }
     console.log("hola, estoy despues del continue");
 }
+ //let counter = 1;
+/*while(true){
+    console.log(counter);
+    (counter <= 100);
+    if((counter % 2) == 0){ 
+            counter++;    
 
-
-
-/*EJERCICIO 2: WHILE DO WHILE. 
-const numero = Number(prompt("Adivina el numero que estoy pensando"));
-function getRandomArbitrary(min, max) {
-  return Math.random(5) * (max - min) + min;
-}
- do{
-        console.log(counter);
-        if (counter < ){
-            counter++;
-            break;
-        } else {
-            console.log("Ingresa otro numero");   
-        }
-    } while (true);
-}
-salto de linea en el prompt \n */
+} */ 
+    /*BUCLE INFINITO */
