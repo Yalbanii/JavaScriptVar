@@ -1,0 +1,44 @@
+body {
+  background: rgb(200, 209, 216);
+  height: 625px;
+}
+
+.container2 {
+  background-color: aquamarine;
+  container: card / inline-size;
+  max-width: 824px;
+  min-width: 250px;
+  overflow: hidden;
+  resize: horizontal;
+  border: 1px solid white;
+  box-shadow: 4px 4px 10px #0005;
+  background: white;
+  color: black;
+  font-size: medium;
+  padding: 20px;
+  margin: auto;
+
+@container parent (width <= 500px) and style(--responsive: true) {
+  .item {
+    background: blue;
+  }
+}
+}
+
+.hidden{
+  visibility: hidden;
+  /* display: none;  
+  PARA NO FLICKERIN*/
+}
+
+.container3{
+    display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(288px, 1fr));
+
+} /*columnas para llenar el espacio */
+
+/* p
+border
+
+ mt-5 margin top
+5rems*/
