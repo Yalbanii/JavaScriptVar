@@ -31,11 +31,11 @@ body {
   PARA NO FLICKERIN*/
 }
 
-.container3{
+.container-jo{
     display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(288px, 1fr));
-
-} /*columnas para llenar el espacio */
+ grid-template-columns: repeat(auto-fit,minmax(288px, 1fr));
+}
+/*columnas para llenar el espacio */
 
 /* p
 border

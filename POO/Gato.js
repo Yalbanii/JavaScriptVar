@@ -1,0 +1,1 @@
+import { Mamifero } from "./Mamifero.js"; //EXPORTA LA CLASE//
